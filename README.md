@@ -4,9 +4,19 @@
 
 ##
 
+Rendering satellite elevation data in ThreeJs.
+
+<img width="741" alt="Screen Shot 2021-12-20 at 6 15 54 PM" src="https://user-images.githubusercontent.com/8960690/146845194-fab64e5c-cff0-45db-af8f-de952200bf14.png">
+
 ## Real satellite elevation data
 
 Browse and download public satellite data at: https://earthexplorer.usgs.gov
+
+Elevation data density is reduced by python script here:
+https://github.com/harrisonbalogh/satellite-elevation-map/blob/master/site/elevation_data/gdal_scrip.py
+
+Can toggle between various elevation granularity settings when running in a browser:
+https://github.com/harrisonbalogh/satellite-elevation-map/tree/master/site/elevation_data
 
 ## ThreeJS
 
