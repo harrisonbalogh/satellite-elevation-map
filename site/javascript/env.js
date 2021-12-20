@@ -170,7 +170,7 @@ function loadJSON(path, sector) {
 // ===== Elevation Data
 
 let generatedLandscapes = []
-let elevationDataPath = '/projects/elevation-map/elevation_data'
+let elevationDataPath = '/projects/satellite-elevation-map/elevation_data'
 function generateElevationAtResolution(resolution) {
 
   generatedLandscapes.forEach(landscape => landscape.removeFromParent())
